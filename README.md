@@ -45,3 +45,40 @@ Ministry of Railways
 - High-contrast mode and large fonts.
 - Multilingual support (English, Hindi, and regional languages).
 
+**3. Digital Kiosks**
+- Touch-screen kiosks placed across the station showing the map with a "You are here" marker.
+- QR code on the kiosk to continue the same route on the passenger's phone.
+
+**4. Real-Time Updates**
+- Live platform changes, train delays, and facility closures (e.g., a lift under maintenance) reflected on the map.
+- Admin dashboard for station staff to update layouts, add or remove facilities, and push alerts.
+
+**5. Railway App Integration**
+- Integration with existing railway services (PNR status, live train status) to auto-suggest the platform route for the passenger's train.
+
+### Technical Considerations
+
+**User Experience**
+- Responsive design for mobile, tablet, and kiosk screens.
+- Simple, intuitive interface usable by all age groups.
+- Compliance with accessibility standards (WCAG).
+
+**Positioning**
+- Indoor positioning using Wi-Fi / BLE beacons, with GPS for outdoor areas and QR-code checkpoints as a fallback.
+
+**Security & Privacy**
+- HTTPS/TLS for data transmission.
+- Minimal collection of location data, with user consent and privacy controls.
+- Role-based access for the admin panel.
+
+### Phases of Arrangement
+
+**Phase 1: Planning and Requirement Gathering**
+- Collect requirements from passengers, station staff, and railway officials.
+- Prepare station floor plans and a list of facilities.
+
+**Phase 2: Design and Prototyping**
+- Create wireframes for the mobile app, kiosk UI, and admin dashboard.
+- Take feedback from sample users, including differently-abled passengers.
+
+
