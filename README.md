@@ -81,4 +81,64 @@ Ministry of Railways
 - Create wireframes for the mobile app, kiosk UI, and admin dashboard.
 - Take feedback from sample users, including differently-abled passengers.
 
+**Phase 3: Development**
+- Frontend: React.js (web/kiosk) and React Native / Flutter (mobile).
+- Backend: Node.js with REST APIs.
+- Map and routing engine with indoor positioning.
+
+**Phase 4: Testing**
+- Unit and integration testing.
+- User acceptance testing at a pilot station.
+- Security testing and accuracy testing of routes.
+
+**Phase 5: Deployment and Launch**
+- Deploy backend on cloud, publish the mobile app, and install kiosks at the pilot station.
+- Monitor performance and usage.
+
+**Phase 6: Post-Launch Support**
+- Bug fixes, map updates, and feature improvements based on feedback.
+
+### Challenges and Solutions
+
+| Challenge | Solution |
+|-----------|----------|
+| Accurate indoor positioning | Combine BLE beacons, Wi-Fi, and QR checkpoints |
+| Keeping maps up to date | Admin dashboard with instant map and alert updates |
+| Diverse passenger needs | Voice guidance, multilingual UI, accessible routes |
+| Poor network inside stations | Offline map caching in the mobile app |
+
+### Outcome and Benefits
+- Reduced confusion and time spent finding facilities.
+- Less congestion and fewer missed trains.
+- Better accessibility for elderly and differently-abled passengers.
+- Easy station management through real-time updates.
+
+---
+
+## Proposed Solution / Architecture Diagram
+
+<img width="2550" height="1445" alt="image" src="https://github.com/user-attachments/assets/52b9cd3c-7aef-4ae1-88ab-d6ca034e55ca" />
+
+
+## Use Cases
+1. Passenger searches for a facility (restroom, food court, platform) and gets step-by-step directions.
+2. Passenger enters a train number or PNR and is guided to the correct platform.
+3. Visually impaired passenger uses voice commands and receives audio directions.
+4. Wheelchair user gets a ramp/lift-only route.
+5. Passenger scans a kiosk QR code to continue navigation on their phone.
+6. Station admin updates the map or posts an alert (platform change, lift closed).
+
+<img width="1288" height="941" alt="image" src="https://github.com/user-attachments/assets/dfc04ad5-1dd5-4667-a13e-5496d5929327" />
+
+
+## Technology Stack
+- React.js (web and kiosk interface)
+- React Native / Flutter (mobile app)
+- Node.js with Express (backend)
+- PostgreSQL (database)
+- Google Maps / Mapbox / Indoor map SDK
+- Firebase Authentication
+- **Amount arranged for management:** Fifty thousand rupees (₹50,000)
+
+
 
